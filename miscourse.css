@@ -1,0 +1,262 @@
+.course-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(0, 238, 255);
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course-title:hover {
+    background-color: #2297be;
+  }
+  
+  .section-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .course2-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course2-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section2-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .cord-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course3-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course3-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section3-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .cardd-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course4-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course4-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section4-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card2-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course5-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course5-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section5-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card3-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course7-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+  }
+
+  .course7-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section7-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card5-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course8-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course8-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section8-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card6-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course9-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course9-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section9-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card7-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .course11-title {
+    border: 2px solid #00bfff;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+  }
+  
+  .course11-title:hover {
+    background-color: #e0f7ff;
+  }
+  
+  .section11-card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  .card8-body {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+  }
