@@ -1,0 +1,417 @@
+/* Top bar styling */
+.topbar-custom {
+  background-color: #011A51 !important;
+  color: white;
+  font-size: 14px;
+  padding: 5px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.topbar-custom a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.topbar-custom i {
+  margin-right: 5px;
+}
+.custom-navbar-color {
+  background-color: #57687a !important;
+  
+}
+.midclass {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midclass img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+.navbar {
+  position: fixed;
+  top: 4%;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+ margin-top: 4px;
+
+}
+nav .container h2 { 
+  color: beige;
+  letter-spacing: 8px; 
+  
+}
+
+
+
+
+
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  width: fit-content;
+  animation: scrollLeft 40s linear infinite;
+}
+
+.logo-group {
+  display: flex;
+}
+
+.logo-img {
+  height: 100px;
+  margin: 0 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+
+
+
+
+.main-content .py-5 {
+  margin-top: 60px; /* Adjust this value to increase or decrease the space */
+}
+
+
+.main-content {
+  padding-top: 1px/* Height of .topbar-custom + Height of .navbar */;
+  
+}
+
+
+
+
+
+
+.achievements-header {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #00b7e3;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  
+  
+ 
+}
+
+.achievement-box {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff  ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achievement-box .left,
+.achievement-box .right {
+  text-align: center;
+  flex: 1;
+}
+
+.divider {
+  width: 2px;
+  height: 60px;
+  background-color: #000;
+  margin: 0 10px;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.custom-box {
+  height: 200px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #17b3e0 !important;
+  font-weight: bold;
+  border-radius: 4px !important;
+  padding: 20px;
+  font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.custom-box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.card-box {
+  background-color: #e6f3f8 !important;
+  height: 200px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.diamond {
+  width: 60px;
+  height: 60px;
+  background-color: #00a7d3 !important;
+  transform: rotate(45deg);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diamond i {
+  transform: rotate(-45deg);
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.cord-box {
+  background-color: #e6f4fa;
+  border-radius: 6px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.cord-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #03a9d7;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper i {
+  transform: rotate(-45deg);
+  color: white;
+  font-size: 20px;
+}
+.contact-info {
+  transition: all 0.3s ease;
+  padding: 20px 5px;
+  border-radius: 10px;
+  min-height:230px; 
+}
+
+.contact-info:hover {
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.contact-icon {
+  transition: transform 0.3s ease;
+}
+
+.contact-info:hover .contact-icon {
+  transform: scale(1.2);
+}
+.student-story-section {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 40px 20px;
+}
+
+
+
+/* Student Placement Section */
+.student-story-section {
+    background-color: #f8f9fa; /* Light gray background for the section */
+}
+
+/* Student Review Section */
+.student-review-section {
+    background-color: #f8f9fa; /* Consistent background with placement section */
+}
+
+/* Styling for Individual Story Cards (Placement) */
+.story-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px; /* Slightly more rounded corners */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+
+    /* Flexbox for consistent height and content distribution */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distributes space between items */
+    min-height: 300px; /* Set a minimum height for all placement cards */
+}
+
+/* Styling for Individual Review Cards */
+.review-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px; /* Slightly more rounded corners */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+
+    /* Flexbox for consistent height and content distribution */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distributes space between items */
+    min-height: 350px; /* Set a minimum height for all review cards (reviews are longer) */
+}
+
+/* Styling for Images within Cards */
+.story-card img,
+.review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Makes images circular */
+    object-fit: cover; /* Ensures images fill the circular space without distortion */
+    margin: 0 auto 15px auto; /* Center image horizontally, add bottom margin */
+    border: 2px solid #0d6efd; /* Small border around image */
+}
+
+/* Styling for H5 (Student Name) within Cards */
+.story-card h5,
+.review-card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #343a40; /* Darker text for names */
+}
+
+/* Styling for Paragraph text (Company, Job, Salary) within Story Cards */
+.story-card .card-info {
+    font-size: 0.9rem;
+    color: #6c757d; /* Muted gray text */
+    margin-bottom: 15px;
+    text-align: center; /* Keep text centered */
+    flex-grow: 1; /* Allows this paragraph to take up available space */
+}
+
+/* Ensure each line within card-info is a block */
+.story-card .card-info span {
+    display: block;
+    line-height: 1.4; /* Adjust line height for better readability */
+}
+
+/* Styling for Review Text */
+.review-card .review-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Allows text to take up available space */
+    text-align: left; /* Reviews often look better left-aligned */
+    line-height: 1.5; /* Improve readability for review text */
+}
+
+/* Styling for Rating Stars */
+.story-card .rating,
+.review-card .rating {
+    color: #ffc107; /* Yellow color for stars (like Bootstrap's warning color) */
+    font-size: 1.2rem; /* Size of stars */
+    margin-top: auto; /* Pushes stars to the bottom if content is shorter */
+}
+
+/* Button Styling (Bootstrap's btn-primary is good, but you can customize) */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 8px; /* Rounded button */
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive adjustments for smaller screens if needed (though Bootstrap handles most) */
+@media (max-width: 575.98px) {
+    .student-story-section,
+    .student-review-section {
+        padding: 30px 15px; /* Slightly less padding on very small screens */
+    }
+    .story-card,
+    .review-card {
+        min-height: auto; /* Allow height to adjust on very small screens if stacking */
+    }
+}
+
+
+
+
+.footer {
+  background-color: #111; /* Dark background */
+  color: whitesmoke;
+  border-top: 2px solid white;
+  position:relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
